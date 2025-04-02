@@ -1,0 +1,1452 @@
+
+
+Page 1:
+Product Sense -
+How to tackle product strategy and business acumen rounds in
+interviews?
+Lecture Objective:
+How to address business acumen questions round :
+●
+Analyzing a metric change. What’s a metric?
+●
+Defining metrics to measure performance / success of a new feature / product.
+Importance of product strategy & business acumen rounds -
+●
+Apart from building models, developing dashboards and reporting frameworks -
+One of the main responsibilities of a data scientist is to extract insights from
+data and work with product managers and engineering teams to deliver
+actionable plans to improve the product.
+●
+Product sense is about understanding all possibilities, not finding one correct
+answer.
+Example Questions: Product Acumen / Business Acumen
+●
+Why did Youtube’s traffic drop by 5%?
+●
+How would you measure the success of the “Save Post” feature on Facebook?
+●
+What metrics would you define to measure the health of the product search in
+Amazon?
+●
+We have a dashboard tracking our metrics and the avg ETA is up by 3 min. How
+would you investigate this problem?
+
+
+Page 2:
+______________________________________________________________________________
+Flow of Discussion between CEO, Product Manager and Data Scientist.
+CEO: Good morning, team. I'd like to discuss the upcoming launch of our new feature.
+Product Manager, could you provide an overview of what we're planning?
+Product Manager: Certainly, CEO. We're introducing a new in-app messaging feature
+that allows users to chat with customer support directly. This should greatly enhance
+the user experience and improve our customer service.
+Data Scientist: That's great news. To ensure its success, I suggest we monitor user
+engagement and response times closely. We should track metrics like chat usage,
+response rates, and customer satisfaction.
+CEO: Agreed. Data Scientist, can you set up a framework to collect and analyze
+these metrics? Also, are there any early insights you can share about user behavior in
+our app that might be relevant to this feature?
+Data Scientist: I'll get the data collection in place. As for user behavior, we've seen
+that users tend to spend a lot of time on our help center articles, which indicates a
+need for better support options. This new feature aligns well with that behavior.
+Product Manager: It's reassuring to hear that. We're planning to roll out the feature to
+a small segment of users first to gather feedback. Data Scientist, do you have any
+recommendations for how we can structure A/B testing to measure its impact
+effectively?
+Data Scientist: Certainly. We should set up the A/B test to compare user behavior
+and satisfaction between those with access to the new feature and those without.
+This will help us gauge its impact on engagement and customer satisfaction.
+
+
+Page 3:
+CEO: Sounds like a solid plan. Let's move forward with this strategy, and once we have
+collected enough data, we can reconvene to evaluate the feature's performance. Thank
+you, team.
+Product Manager: Thank you, CEO. We're excited about this launch and the positive
+impact it can have on our users.
+Data Scientist: Agreed. Let's work together to make sure we're making data-driven
+decisions every step of the way.
+______________________________________________________________________________
+Key responsibilities taken by the CEO, Product Manager, and Data
+Scientist in the above discussion:
+CEO:
+●
+Setting the overall direction and vision for the company.
+●
+Initiating the discussion and requesting an overview of the new feature.
+●
+Agreeing to monitor user engagement and response times.
+●
+Leading the decision-making process and giving final approval.
+Product Manager:
+●
+Providing an overview of the new in-app messaging feature.
+●
+Highlighting the potential benefits of the feature for the user experience and
+customer service.
+●
+Suggesting the rollout of the feature to a small user segment for feedback.
+●
+Seeking recommendations on structuring A/B testing to measure the feature's
+impact effectively.
+Data Scientist:
+●
+Suggesting the need to monitor user engagement and response times.
+●
+Recommending the collection and analysis of specific metrics related to the
+feature, such as chat usage, response rates, and customer satisfaction.
+
+
+Page 4:
+●
+Offering insights into user behavior in the app, such as users spending time on
+help center articles.
+●
+Proposing the setup of A/B testing to compare user behavior and satisfaction
+between users with and without access to the new feature.
+●
+Agreeing to work on making data-driven decisions and collecting relevant data.
+These responsibilities reflect the different roles and expertise of the CEO, Product
+Manager, and Data Scientist in the context of launching a new feature and ensuring its
+success.
+______________________________________________________________________________
+Judgment Criteria & General Framework -
+Keep this in mind when addressing business acumen questions.
+●
+Judgment Criteria for Interviewers :
+○
+Structure - Demonstrate a systematic approach
+○
+Comprehensiveness - Covers all important aspects
+○
+Feasibility - Practical enough that it could be implemented realistically
+●
+General Framework to keep in mind :
+○
+Clarify
+○
+Plan
+○
+Conclude
+
+
+[Image: page_4_img_1.png]
+**GENERAL FRAMEWORK**
+
+01
+
+**Clarify**
+
+Don’t give a solution without understanding the problem. Ask questions to understand the business context and define the key objective.
+
+02
+
+**Plan**
+
+It’s okay to take a minute to gather your thoughts on the solution. Plan the metrics / hypothesis.
+
+03
+
+**Conclude**
+
+Summarize the key points (from objective, to solution & recommendation (if any)).
+
+---
+
+**Summary:**
+
+The general framework involves three steps:
+1. **Clarify**: Avoid providing solutions without comprehending the problem. Ask questions to grasp the business context and determine the main objective.
+2. **Plan**: Take time to consider the solution and formulate the metrics or hypothesis.
+3. **Conclude**: Recap the essential points from objectives to solutions and recommendations, if applicable.
+
+Page 5:
+Different Product Sense Problems -
+1. Product Diagnostics - Analyzing a metric change.
+Case - You notice that the percentage of users who clicked on a search result about a
+Facebook Event increased 15% week-over-week. How would you investigate this?
+General Framework -
+
+
+[Image: page_5_img_1.png]
+Different kinds of Product Sense Problems
+
+01  
+Product Diagnostics - Analyse a metric change
+- Investigate why our new user sign up increased by 15% yesterday
+- ETA of cab service has increased by 10%
+- ‘Add To Cart’ Conversion has decreased by 5%
+
+02 
+New Product / Feature - Measuring performance / success
+- How would you measure the health of the product search in Amazon?
+- What metrics would you use to define the success of the save feature on FB?
+
+03 
+Product Design - Launch feature recommendation
+- Should we change the address bar of our mobile browser to the bottom
+- Add more marketing promotion emails for our newly signed-up users?
+- Make it mandatory to upload pictures in the sign up process itself?
+
+04 
+Product Improvement
+- How would you improve content creation on TikTok?
+- How would you improve Maps?
+
+**Summary**: The image outlines four types of product sense problems: 
+
+1. Product Diagnostics involves analyzing changes in metrics like user sign-up increases, changes in cab service ETAs, and variations in 'Add To Cart' conversions.
+2. New Product/Feature focuses on measuring the success and health of features like Amazon’s product search and Facebook’s save feature.
+3. Product Design provides recommendations for launching new features, such as relocating the address bar in mobile browsers and enhancing email promotions.
+4. Product Improvement suggests refining platforms like TikTok for content creation and Maps.
+
+Page 6:
+1. Clarify: Ask clarifying questions and share what your thoughts about it are.
+Below is an example of how you could drive this with the interviewer.
+○
+What does a search result success for an event mean?
+■
+Does it refer to when a user searches for something in the search
+bar on Facebook and the results produce a Facebook event?
+■
+These search results could belong to different categories, like a
+Facebook Event, Page, or Group - and the success is defined when
+you click on the event
+
+
+[Image: page_6_img_1.png]
+**Product Diagnostics - General Framework**
+
+You notice that the percent of users that clicked on a search result about a FB Event increased 15% week-over-week. How would you investigate this?
+
+---
+
+🔍 `Search bar`
+- **Search:** justin beiber
+
+---
+
+📄 **Group**
+- **Title:** Justin Beiber
+- **Info:** 8.6K people are talking about this
+- **Public group:** 405K members
+- **Caption:** This is fan group. for all beliebers… 💕♡♡
+- **Frequency:** 80 posts a day
+- **Button:** Join
+
+---
+
+🎤 **Page**
+- **Name:** Justin Bieber
+- **Page Info:** 88,656,642 followers
+- **Post Info:** 16 mins · Recently seen · Photo dump...
+- **Caption:** luv u guyzzz
+- ❤️👍 `Reactions:` 29.3K
+- 💬 `Comments:` 1.6K Comments
+- 🔄 `Shares:` 567 Shares
+
+---
+
+📜 **Business Insider**
+- **Page Info:** Page · 9.7M like this · Business & Economy Webs...
+- **Post Info:** 18 hrs · Blatt Billiards has been building custom pool tables for nearly 100 years.
+- **Link Title:** BUSINESSINSIDER.COM
+- **Link Insight:** How $100,000 custom pool tables are made for celebrities like Justin Bieber
+
+---
+
+
+
+[Image: page_6_img_2.png]
+**CRIED**
+
+- Clarify
+- Rule out
+- Internal & External Data
+
+**Summary:**
+
+The image features a diagram titled "CRIED". It outlines three interconnected concepts: "Clarify", "Rule out", and "Internal & External Data".
+
+Page 7:
+○
+You could also clarify the definition of the metric in question.
+■
+15% increase = # users who clicked on event result after searching
+/ # of users who searched for any keyword.
+■
+15% WoW = 15% increase in success rate compared to last week?
+Or there has been a 15% increase over the past few weeks.
+2. Rule Out: Rule out any change in metric happening due to technical issues or
+infrastructural glitch / bugs or outliers.
+○
+Has there been any bug in the logging code because of which event clicks
+have been de-duped?
+○
+Is it a 3rd-party software tracking the search result clicks? If so, is there
+any glitch in that software?
+○
+Any data pipeline failure?
+○
+Ask about outliers - Did the metrics for the week get affected by one
+day’s data alone or has it been a consistent increase?
+3. Internal Data: Explore the internal factors that could have affected the metric.
+Acronym: TROPiCS
+○
+T - Time:
+■
+Is this 15% increase seasonal / sudden / gradual?
+■
+Sudden Increase - could mean there is a bug in the logging of a
+new feature or update that's recently launched (ranking change?).
+This is creating problems so you may need to roll back.
+■
+Gradual Increase - may indicate a change in user behavior. Maybe
+users are starting to prefer live virtual events over physical events
+due to covid restrictions
+○
+R - Region:
+■
+Is this change concentrated in a specific region or is it evenly
+distributed globally?
+■
+For example, we are slowly coming out of the pandemic and some
+
+
+Page 8:
+cities have started to reopen. In which case, the rising interest in
+events may only be concentrated in those cities that are not
+re-opened
+○
+O - Other related features affected:
+■
+If an interest in events is going up, do we see a similar jump in
+Instagram or Facebook stories because users attending these
+events will have more content to post about?
+○
+P - Platform:
+■
+Are we seeing this increase across both Android / iOS?
+■
+Across Mobile / Desktop?
+■
+Across Mac / Windows?
+■
+If only one of them is seeing an increase, we should explore if
+there’s an engineering bug with the platform that has caused a
+glitch
+○
+C - Cannibalization: If the metric for a product is decreasing, is it because
+another product we offer is cannibalizing engagement?
+Alternatively, if the metric in question is increasing, are we cannibalizing
+from our other offerings?
+■
+Around the time when the spike in event clicks happened, are we
+seeing a decrease in # clicks on profiles/pages / groups?
+■
+Is there a specific category that we’re cannibalizing from or is it
+evenly distributed?
+■
+For instance, is it only users that previously clicked on Groups (not
+Pages) that are clicking on Events now?
+●
+This may indicate that we made a change to the ranking of
+Groups in our search results.
+●
+Did we down rank it? Or accidentally remove it completely?
+○
+S - Segmentation: Slice and dice the data to identify the demographic of
+
+
+Page 9:
+users this increase has affected.
+■
+Age - Are we noticing this increase only amongst teenagers /
+young adults / middle age or senior users?
+■
+Gender - Is this increase only among female users? Or across both
+genders
+■
+Power Vs Casual Users - Are we observing this increase only
+among those users that are less active on FB?
+■
+New Vs Existing Users - Are we observing this increase only
+among those users that recently joined FB? Are the existing users
+still exhibiting same behaviors
+4. External Data:
+○
+Industry/Competitor
+■
+Did the # of users attending events on Twitter decrease?
+■
+A new competitor has joined the market.
+■
+Are competitors changing their offering?
+○
+Good PR
+○
+It could also be due to seasonality or a major temporary event.
+■
+If it’s a major temporary event, you should see KPIs begin to return
+to their normal state shortly.
+2. Measure Product Performance / Success - Defining metrics
+Case - PM reaches out to you after launch of a new save feature on Facebook to assess
+the success of this feature. Define the metrics you would like to measure.
+
+
+Page 10:
+1. Clarify: Ask clarifying questions about the new feature / product and the main
+objective behind its release (monetization, engagement, retention etc).
+○
+Is this save feature used to allow users to Save Links, Pages, Posts,
+Locations, Movies, etc. to view later?
+○
+Does this also remind users about what items they have saved later?
+○
+Are we focusing on both aspects of this feature or only the first?
+●
+Who Benefits from This Feature: This feature affects users and marketer?
+○
+Marketers do not want to be forgotten, so if they post something that
+attracts the attention of the user, they want the user to be able to find it
+again later if they don't have immediate time to spend on it.
+○
+For example, if there is a nice shoe advertised on FB and the user likes it,
+but cannot check it now, or there is a discussion about a TV series that
+the user potentially finds interesting to watch later, the user can save it to
+check it out later.
+●
+Business Goals:
+○
+User Goal: The benefit for users is that they do not need to copy paste or
+take a screenshot of the post they want to check out later. They can have
+
+
+[Image: page_10_img_1.png]
+**New Feature - Define Metrics**
+
+_PM reaches out to you after launch of a new save feature on FB to assess success of this feature._
+
+01  
+Clarify  
+
+02  
+Explain Business Goal with Feature  
+
+03  
+Define Metrics  
+
+04  
+Summarise  
+
+---
+
+**Summary:**
+
+The image outlines a process for assessing a new save feature on Facebook. The steps include clarifying the feature, explaining the business goal associated with it, defining metrics to evaluate its success, and finally summarizing the findings.
+
+Page 11:
+all these items in a categorized way (e.g., Movies, Pages) and can check
+them later.
+○
+Marketer Goal: Increases revenue for marketers by increasing clicks and
+impressions.
+○
+BIZ Goal: Increases user engagement.
+■Increase revenue by increasing CTR, and CPC and CPM. Because
+the user might make a click that he would not have done
+otherwise if they could not save the post. So, the goal is to
+increase CTR and consequently the revenue.
+●
+Define Metrics:
+Please note that not all elements are applicable to all problem statements.
+1. Awareness:
+a. Discoverability:
+i.
+% of users the have at least once Saved an item
+1. This shows that the users know about this feature.
+ii.
+# of returns to saved content per user
+
+
+[Image: page_11_img_1.png]
+## New Feature - Define Metrics
+
+**AAAERR**
+
+### 01
+
+**Awareness**  
+How many people are aware your brand exists?  
+Number of website visits, time spent on a website, email open rate etc
+
+### 02
+
+**Acquisition**  
+How many people are interacting with your product?  
+Number of leads, number of qualified leads, sign ups, downloads, install, chatbot interactions
+
+### 03
+
+**Activation**  
+How many people are realizing the value of your product?  
+Number of connections made, number of times an action is performed, number of steps completed
+
+### 01
+
+**Engagement**  
+What is the breadth and frequency of user engagement?  
+DAU, MAU time spent in a session, session frequency, actions taken in the product, likes, comments etc
+
+### 02
+
+**Revenue**  
+How many people are paying for your product?  
+CTR, % of paid customers; average revenue per customer; conversion rate of trial to paid customers;
+
+### 03
+
+**Retention / Renewal**  
+How often are your users coming back?  
+% of users coming back to your platform each day, month, year; churn rates; customer lifetime value
+
+---
+
+### Summary
+
+The image outlines a new feature about defining metrics, labeled "AAAERR," which stands for Awareness, Acquisition, Activation, Engagement, Revenue, and Retention/Renewal. Each metric focuses on different aspects:
+
+1. **Awareness** measures
+
+Page 12:
+1. % of users returning to view saved content
+organically (on their own) - User knows where to find
+Saved items and knows how to work with it.
+2. % of users returning inorganically (i.e., reminded by
+3. Facebook to view saved content).
+2. Acquisition:
+a. # of new clients who want to advertise with Facebook.
+b. Increased spending of existing clients with Facebook since the
+launch of the save feature.
+3. Activation:
+a. Adoption:
+i.
+% of total posts saved (# Saved Posts / # Total
+Posts)-Indicates the adoption rate of the save feature - #
+people using the save feature actively.
+4. Engagement:
+a. Average number of likes, comments, shares per saved post on a
+daily, weekly, and monthly basis- indicates the user engagement
+on a broader level. Compare this with a general post with no save
+feature and see if the engagement is more with the new feature.
+b. %of Saved items that the user opens from the Saved page.
+c. Amount of time spent on a page, after opening it from the Saved
+page.
+d. The average amount of time it took a user from Saving an item to
+opening it again.
+5. Revenue:
+a. % revenue increase just based on clicks and impressions made
+through the funnel that includes Saved items.
+6. Guardrail Metrics:
+(Along with success defining metrics, it's also important to define
+guardrail metrics)
+
+
+Page 13:
+a. Has the success metrics of other features gone down because of
+the launch of the save feature?
+i.
+For example, Although the save feature is leading to a lot of
+users saving the video, they fail to actually come back to the
+saved page and watch it. This reduces engagement in video
+content.
+b. %of Saved items that the user deletes without engaging with or
+opening them.
+______________________________________________________________________________
+Product Metrics
+What are product metrics?
+●
+Product metrics are quantifiable data points that a business tracks and analyzes
+to evaluate the success of its product.
+●
+By using interactive product metrics, companies can optimize product strategies
+to ensure business growth.
+●
+Determining the right metrics to monitor and analyze leads to more intelligent
+decision-making throughout the product development process.
+What are KPIs?
+●
+These metrics, sometimes called key performance indicators (KPIs), give the
+company quantifiable evidence about which aspects of the product / customer
+experience are resonating with customers, and which aren’t.
+●
+Product KPIs can be related to user requirements, size, quality, product growth,
+or user comfort.
+●
+They can evaluate architectural measures, quality measures, software
+complexity, or functional size.
+
+
+Page 14:
+How do companies use these metrics?
+Depending on their goals, companies may use product metrics to:
+●
+Set their product roadmap
+●
+Evolve product strategy
+●
+Make changes to their product
+●
+Forecast revenue
+●
+Measure the impact of individual features
+●
+Better understand user behavior
+●
+Evaluate the success of a launch
+●
+Segment their market
+●
+Test product hypotheses
+Why are they important from an interview perspective?
+Metric definition questions come up very frequently in Data Science interviews.
+These questions are generally meant to:
+1. test your ability to understand the goal of a product,
+2. trace the customer journey with that product and
+3. map both the goal and the journey to a set of quantifiable measures.
+
+
+[Image: page_14_img_1.png]
+**Text in the Image:**
+
+PRODUCT METRICS
+
+---
+
+**Summary:**
+
+The image features the title "PRODUCT METRICS" along with various iconographic representations of metrics, such as a speedometer, bar chart, and growth chart, all set against a blue background.
+
+Page 15:
+Understanding different product metrics -
+There is no fixed categorization of product metrics.
+However, on a broader level, metrics are often categorized as either "Vanity" or
+"Actionable" based on their utility and relevance in guiding decision-making and
+strategy.
+Difference between Vanity metrics and Actionable metrics:
+Aspect
+Vanity Metrics
+Actionable Metrics
+Nature
+Superficial metrics that focus on
+showcasing positive but often
+superficial numbers.
+Metrics that are relevant to the core
+goals and objectives of a business or
+product.
+Emphasis
+Prioritizing quantity over quality,
+may not provide meaningful
+insights.
+Prioritize quality over quantity,
+focusing on critical data.
+Actionability
+Lack a direct connection to
+specific actions to improve
+performance or decision-making.
+Closely tied to specific actions that
+can improve performance or
+outcomes.
+
+
+Page 16:
+Purpose
+Sometimes called "ego metrics"
+as they can boost an ego with
+impressive numbers.
+Goal-oriented and help organizations
+track progress toward achieving
+desired outcomes.
+Examples
+Total website visitors, social
+media followers, page views,
+downloads.
+e.g. A social media influencer
+might have 5M followers but
+when promotes a product, only
+able to get a CTR of 0.001%
+Conversion rates, customer
+acquisition cost, customer lifetime
+value, retention rates, revenue per
+user.
+Now, we will look at the three labels of metrics that a company follows in order to grow :
+
+
+[Image: page_16_img_1.png]
+**Extracted Text:**
+
+Product Metric Pyramid
+
+01
+The most important metric - the North Star. You look at it when you need guidance.
+
+02
+2-3 less important metrics linked to actions that impact your North Star.
+
+03
+Granular metrics that measure your current actions.
+
+APIFUSE
+
+---
+
+**Summary:**
+
+The Product Metric Pyramid is a hierarchical framework. At the top (01) is the most important metric, the "North Star," which provides guidance. Below it (02) are 2-3 less crucial metrics that influence the North Star. At the base (03) are detailed metrics that track current actions. The pyramid is attributed to APIFUSE.
+
+Page 17:
+Focus metric / North Star metric -
+This is the single most important measure of success that matters a lot to a company.
+A North Star Metric (NSM) should be:
+●
+A direct reflection of the company’s mission
+●
+An indicator of how a company brings value to its customers.
+●
+The only one of its kind. (Avoid having multiple NSMs as this tends to create
+complexity and confusion)
+●
+The answer to the following question: What is the one metric that best represents
+the desired outcome of your company?
+Which metric, if it were to increase today, would most accelerate my business’ flywheel?
+Level 1 metric / Primary metric -
+●
+Primary metrics depict the desired outcome of a particular product, team, or
+initiative. This is unlike the NSM, which represents the desired outcome of the
+company as a whole.
+
+
+[Image: page_17_img_1.png]
+**Text Extracted:**
+
+- Instagram: Monthly Active Users
+- Spotify: Time Spent Listening
+- Airbnb: Booked Nights
+- Lyft: Rides per week
+- Slack: Daily Active Users
+- Quora: Questions Answered
+- WhatsApp: Daily Active Users
+
+**Summary:**
+
+The image lists various platforms along with key user engagement metrics:
+
+1. **Instagram** measures engagement through Monthly Active Users.
+2. **Spotify** evaluates Time Spent Listening.
+3. **Airbnb** tracks Booked Nights.
+4. **Lyft** reports on Rides per week.
+5. **Slack** considers Daily Active Users.
+6. **Quora** notes Questions Answered.
+7. **WhatsApp** also focuses on Daily Active Users.
+
+Page 18:
+●
+Level 1 (L1) or primary metrics should either directly contribute to the focus
+metric or act as a check to make sure the product is growing in a healthy
+direction.
+●
+The primary metric can be more valuable than the NSM in the short-term
+because of its narrower focus, tighter feedback loop and more immediate
+association with the specific product, team, or initiative in question.
+●
+For example, if a product’s focus metric is Weekly active user, a good L1 metric
+would be 7-day retention to ensure you aren’t spending precious marketing funds
+to acquire new users who leave after a day or two.
+Supporting/ Tracking/ Input metric / Level 2 metric -
+●
+Performance indicators which are set for the current initiatives that are most
+granular and mostly used for tracking the progress at lowest level.
+●
+For example - There may be some targeted marketing or segmented offers that
+need to be checked.
+●
+Supporting metrics are indicators that the primary metric is moving in the right
+direction.
+●
+To take the retention example one step further, the Level 2 metric could be iOS
+app retention.
+●
+Another could be a Level 2 metric such as the retention of a region or segment of
+customers.
+
+
+Page 19:
+
+
+[Image: page_19_img_1.png]
+**Text Extraction:**
+
+Focus metric  
+Matters most to your business
+
+Active usage
+
+Level 1 metrics  
+Complement the focus metric
+
+Reach  
+Activation  
+Engagement  
+Retention  
+Business-specific
+
+Level 2 metrics  
+More specific and drive  
+the L1 and focus metrics
+
+Example: L1 broken down by platform, region, segment, or feature
+
+---
+
+**Summary:**
+
+The hierarchy outlines metric levels related to business focus. "Focus metric" is crucial for the business. "Active usage" is highlighted at the top. "Level 1 metrics" complement the focus metric and include Reach, Activation, Engagement, Retention, and Business-specific areas. "Level 2 metrics" provide specific details, aiding L1 and focus metrics, and can be broken down by platform, region, segment, or feature.
+
+[Image: page_19_img_2.png]
+**Text from Image:**
+
+```
+FOCUS METRIC
+
+COMPANY
+Weekly active subscribers (WAS)
+                                        Owner
+                                        KPI
+
+L1 METRICS                             L2 METRICS
+
+REACH
+Marketing
+Subscribers
+                                         Retained  Reactivated  New
+
+ACTIVATION
+Growth
+Subscription in
+7 days / New users
+                                        Time to subscription
+
+ENGAGEMENT
+Product & content
+Minutes viewed / WAS
+        ACTION                       COMPLETION
+        Product                          Content
+        Video starts / WAS      Complete / Start
+
+RETENTION
+Product & marketing
+1-week WAS retention
+                                          Content
+                                           Same show retention
+
+BUSINESS-SPECIFIC
+Product
+Avg. revenue / Subscriber
+```
+
+**Summary:**
+
+The diagram outlines metrics for assessing a company's weekly active subscribers (WAS). It categorizes these into L1 and L2 metrics. L1 metrics include Reach (Marketing - Subscribers), Activation (Growth - Subscription in 7 days/New users), Engagement (Product & content - Minutes viewed/WAS), Retention (Product & marketing - 1-week WAS retention), and Business-specific (Product - Avg. revenue/Subscriber). L2 metrics further break down these categories: for Reach, subscribers are divided into Retained, Reactivated, and New; Activation examines Time to subscription; Engagement investigates Action (Product/video starts/WAS) and Completion (Content/Complete/Start); Retention considers Content/Same show retention. An Owner KPI is
+
+Page 20:
+What’s a product metric interview question?
+●
+Metric interview questions test if candidates can perform data analysis and select
+key metrics that matter most to the success of a product.
+●
+Employers like Facebook and Google use these questions to evaluate critical
+thinking and communication skills.
+There are two types of metric questions:
+1. Metric definition based:
+●
+Metric definition questions focus on your ability to define metrics that
+provide clarity on the health of a product or feature.
+●
+Here’s an example question: “What metrics would you use to determine
+success for Facebook Sponsored Posts?”
+
+
+[Image: page_20_img_1.png]
+**Financial Services**
+
+- **Reach**
+  - **Question**: How many people have used the product in a recent time period?
+  - **Sample metric**: Account holders, Signed-in users (3-month window), Subscribers
+
+- **Activation**
+  - **Question**: What percentage of new users have onboarded and experienced your product’s value?
+  - **Sample metric**: 
+    - Made first deposit within 7 days
+
+- **Active usage**
+  - **Question**: Are people showing up regularly and performing a key action?
+  - **Sample metric**: Weekly active users (WAU), Monthly active users (MAU)
+
+- **Engagement**
+  - **Question**: How engaged are your active users?
+  - **Sample metric**: Transactions, Deposits
+
+- **Retention**
+  - **Question**: How many of your active users come back?
+  - **Sample metric**: 7 or 30 day retention
+
+- **Business-specific**
+  - **Question**: How else does your business deliver value?
+  - **Sample metric**: Savings / Debt ratio of users, Fraud events / User
+
+**SaaS**
+
+- **Reach**
+  - **Question**: How many people have used the product in a recent time period?
+  - **Sample metric**: Users from paid accounts, Active licenses
+
+- **Activation**
+  - **Question**: What percentage of new users have onboarded and experienced your product
+
+Page 21:
+●
+There are many different metrics you could be tracking (e.g., impressions,
+clicks, return on ad spend, etc.) and your interviewer will want to hear you
+select the most important ones using a rigorous process.
+2. Metric change based:
+●
+Metric change questions test if you know what to do when a key product
+metric (e.g., traffic, revenue, engagement, etc.) is going up or down for no
+apparent reason.
+●
+This is almost the same as root cause analysis i.e.: an approach for
+identifying the underlying causes of an incident so that the most effective
+solutions can be identified and solved.
+We will be focusing on metric definition questions here -
+Framework for working on such problems -
+Here is how you can answer a metrics definition-based question:
+1. Describe the feature.
+●
+Explain your understanding of the feature, what problem it solves, and
+how it solves it.
+●
+Clear if everyone is on the same page related to the problem and features.
+2. Determine the goal of the feature.
+●
+In a metrics question you are measuring the success of a feature in
+achieving a specific goal.
+●
+Hence, it is crucial to have clarity on what that goal is.
+3. Walk through the customer journey.
+●
+Understand the funnel of the product and customer interaction.
+●
+Walk through the user journey from beginning to the end of the interaction
+with the feature.
+●
+This step also helps you think about potential behaviors that can impact
+the success of the feature.
+4. Map and quantify user behaviors.
+●
+Mapping user behaviors that are part of the customer journey and impact
+the goal of the feature in a positive or negative way.
+
+
+Page 22:
+●
+Examples of the customer journey phases a user can go through:
+Awareness, Acquisition, Activation, Engagement, Retention, Monetization,
+Referral. ​
+●
+Review the phase by highlighting various scenarios / behaviors and
+relevant outcomes that can have an impact on the goal(s) and explain why
+measuring the behaviors and (or) their outcomes is relevant.
+●
+This step helps you determine what needs to be measured.
+5. Evaluate your metrics.
+●
+Now that you have gathered a list of metrics that impact the goal, evaluate
+them based on some meaningful criteria such as reach, impact,
+confidence, and effort.
+CASE 1:
+What metric would you look at, to improve retention for a fitness application?
+________________________________________________________________
+Problem Statement:
+There’s a fitness company “PureFit”, who has launched their new application that has
+various fitness related information like videos and information on how to perform certain
+exercises, diet management plans, etc.
+They also have classes and live sessions for users to join and follow.
+There are two types of customers:
+1. Free customers that have access to certain videos and information, nothing
+customizable.
+2. Paid customers that can get personalized diet plans and advice from experts
+with respect to their fitness goals.
+Here what we look at is based on our business model and user behavior.
+We look at a retained user who has been with us for at least two months.
+If they fall off before two months, then we don't call them as a retained user.
+
+
+Page 23:
+So basically, that a user has been using the app for more than two months.
+Now that we have a fair idea of the problem and if we just look at the funnel for a user
+joining a fitness app it could be:
+●
+There's an acquisition stage where we are trying to acquire the users.
+●
+Then there’s an onboarding stage where users have signed up and logged in.
+●
+Now next comes the engagement part wherein they're browsing what all the
+app has to offer i.e., they're doing the classes looking at a bunch of videos.
+●
+Finally, if they're coming back on the platform again and they're continuously
+using it for two months that is what we are qualifying as retention.
+At this stage you can clarify your understanding and if the flow you have imagined is
+actually correct.
+Defining relevant metric for each stage of the funnel:
+We then need to define metrics across each state of the funnel just to see the
+various touch points and checkpoints which can help us design other strategies to
+boost retention.
+Retention comes pretty late in the funnel so we will try to look for drop-off points as well
+to handle retention or increase retention as a whole.
+1. Number of users joined / Weekly/Monthly active users (Acquisition)
+
+
+Page 24:
+These are the very basic metrics to look at and understand and can directly get
+us information about the ongoing statistics of our product.
+This is also the first part of our funnel i.e., getting users to join the platform.
+●
+We want our business to grow so we always need to focus on increasing
+our user base actively.
+●
+If a company is in its growth phase the main goal can be increasing
+its user base and getting more people onboard.
+●
+We can modify our marketing strategy accordingly and for the onboarded
+customers we can create a notification system to encourage them to
+attend more classes/videos and make them more active on the platform.
+2. Retention table / Nth day retention (Engagement)
+●
+N-day retention simply measures how many of your users come back to
+your app on a particular day. We will start counting from “Day 0.”
+●
+Day 0 could be the day that a free customer downloaded your app, or the
+paid customer made their transaction.
+
+
+[Image: page_24_img_1.png]
+**Extracted Text:**
+
+- Weekly New Users & Active Users
+- New users
+- Active Users
+- Footprint Analytics
+- On Date
+
+**Summary:**
+
+The chart displays the weekly number of new and active users from March 2022 to June 2022. There is a distinction between new users, represented in blue, and active users, represented in green. The data suggests a fluctuation in user activity over this period, with a high volume of active users compared to new ones. The source of the data is Footprint Analytics.
+
+Page 25:
+●
+The number of new users can be high but if the retention rate is not high,
+we will keep losing customers and eventually end up with a very small
+customer base.
+●
+This will also give us feedback about the quality of our product or the
+stickiness of it.
+3. The number of classes attended / The duration of class attended
+(Engagement)
+
+
+[Image: page_25_img_1.png]
+**Number of users who open the app the Nᵗʰ day after day 0**
+
+-----------------------------------------
+
+**Number of users who first used the app on day 0**
+
+---
+
+**Summary:**
+The text presents a ratio comparing the number of users who open an app on the Nᵗʰ day after initially using it on day 0 to the total number of users who started using the app on day 0.
+
+[Image: page_25_img_2.png]
+```
+Acquisition Date | Users | Day 0 | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 | Day 6 | Day 7 | Day 8 | Day 9 | Day 10
+Jan 25           | 1,098 | 100%  | 33.9% | 23.5% | 18.7% | 15.9% | 16.3% | 14.2% | 13.3% | 13.0% | 12.1%
+Jan 26           | 1,358 | 100%  | 31.1% | 18.6% | 14.3% | 16.0% | 14.9% | 13.2% | 12.9% | 14.5% | 11.3%
+Jan 27           | 1,257 | 100%  | 27.2% | 19.6% | 14.5% | 12.9% | 13.4% | 13.0% | 10.8% | 11.4%
+Jan 28           | 1,587 | 100%  | 26.6% | 17.9% | 14.6% | 14.8% | 14.9% | 13.7%
+
+[Image: page_25_img_3.png]
+**Text from the Image:**
+
+Sessions per User and Average Session Length for News App Users
+
+- Blue Line: Sessions Per User (monthly)
+- Orange Line: Avg. Session Length (minutes)
+
+X-axis (Months): 
+- Aug 12
+- Sep 12
+- Oct 12
+- Nov 12
+- Dec 12
+- Jan 13
+- Feb 13
+- Mar 13
+- Apr 13
+- May 13
+- Jun 13
+- Jul 13
+
+Y-axis (Scale):
+- 0
+- 5
+- 10
+- 15
+- 20
+- 25
+- 30
+
+Localytics
+
+Source: Localytics data, Aug 2012 - July 2013
+
+---
+
+**Summary:**
+
+The graph from Localytics presents a comparison between the number of sessions per user on a monthly basis and the average session length in minutes for news app users from August 2012 to July 2013. The data shows that while the number of sessions per user has shown variability, generally increasing over the period, the average session length has remained more stable with a slight decline over time.
+
+Page 26:
+●
+For the engagement part, we can see the total number of classes
+attended by a user and their usage duration i.e., for how long the user was
+logged in.
+●
+When exactly are they dropping off. For example, are they signing in and
+then just browsing and dropping off within 2-3 minutes. If yes, then that's
+feedback for us to improve our search and recommendations.
+●
+If no. of users who attend the classes till the end is not too high, it
+probably means that the users are not liking the content that we are
+offering.
+●
+We also need to understand what the desired level of interaction for each
+user is so that we can quantify and measure that it is below the desired
+level or around it like -
+○
+If it's at least once a day that's good.
+○
+If it's more than once a day that's super awesome.
+○
+If it's less than twice per week or maybe just once a week, then it's
+bad.
+4. Referrals and links shared / Feedbacks received
+●
+These may also help in understanding the level of love for the product that
+the customers have.
+●
+For example, if a certain video or diet plan is shared by the users a lot with
+other people then we can easily identify that the people are loving it and
+finding it informative and useful.
+●
+This is also important if we have a referral-based marketing strategy to
+onboard more people via connections and give them perks and discounts
+for it.
+●
+If there is any feedback like - How was the session? How is the user
+communicating?
+●
+Any sort of analysis on the feedback to understand what's going on with
+the user and trying to gauge whether the user will stay with us for more
+time or not.
+Q. Do we need to deep dive in any particular stage or reason?
+●
+We can look more into the content-based drop offs.
+
+
+Page 27:
+5. Match rate between user and content (Engagement)
+We can then look into the fact that why the user is dropping off from the class or
+what might be the reason for the user to not like the content.
+●
+The very obvious reason can be the quality of the content, which we need
+to improve.
+●
+The next most important thing to look at is if the user is getting what they
+need or they are looking for.
+○
+If a beginner user is looking for content of that level and is signed
+up for something that is very advanced for them, they will definitely
+be disheartened and will most likely drop off.
+●
+It can also be a case that a person looking for Zumba is led to other
+activities such as yoga or weight training and they actually do not wish to
+do so.
+○
+We can have a feature inbuilt in the platform that can mark all
+classes and content based on different categories and segregate
+them for the users so that the users can actually understand the
+level and type of activity they are signing up for.
+○
+In addition to that we can bug the user upfront while signing up for
+understanding their intent and their expertise so that we can find
+and recommend a perfect match to them.
+
+
+[Image: page_27_img_1.png]
+**Text Extraction:**
+
+- Recommendation
+- Engine
+
+- Copyright © 2021 Maruti Techlabs Inc.
+
+**Summary:**
+
+The image displays a "Recommendation Engine" concept with various icons symbolizing different types of content or products, such as music, video, shopping, food, and fashion. It is copyrighted by Maruti Techlabs Inc. in 2021.
+
+Page 28:
+NOTE:
+There are other metrics like free to paid user conversion percentage, that we would look
+at if the goal was to create a metric for success of the overall app, not just retention.
+CASE 2:
+Defining success for a banking application
+________________________________________________________________
+Problem Statement:
+The “Indian Bank” which has been functional for the past 5 years and has an already
+established customer bank, just launched a new mobile application for its users.
+What are the success metrics you would set out to determine the success of the
+app?
+Q. Do we need to look at the overall success of the bank or do we need to focus
+only on the success of the application?
+●
+We will focus on the success of the mobile app only.
+Assuming that the bank is already set up and has a steady user base, we can think of
+two different aspects of the app, one for the new users and one for the existing ones.
+The new users will have to follow an additional step of creating an account, assuming
+that is available via the application.
+After this the funnel for user interaction and user journey will be the same for everyone
+i.e., different transactions and accessing different features available via the app link
+investments, fixed, recurring deposits loans etc., all depending on the services by the
+bank.
+We will look into all of it, starting by dividing the metrics into two different sections:
+●
+Revenue based metrics - because this is a bank we are looking at, the revenue is
+generated or directed through the mobile application itself.
+○
+That would help us understand the direct impact of the features and
+services we are providing to the users through the mobile application.
+
+
+Page 29:
+●
+The other aspect can be the overall user adoption or engagement.
+○
+This can also be categorized as non-revenue-based metrics which will
+help us understand if the app is user friendly and is fulfilling the
+expectations of the users.
+1. Revenue based metrics (Revenue) :
+To understand or calculate the revenue that the mobile app is generating, we first
+need to understand how the bank is itself making revenue.
+We can list this information and also clarify if our information regarding the bank
+is valid or not.
+●
+Credit card fees
+●
+Checking accounts
+●
+Savings accounts
+●
+Mutual fund revenue
+●
+Investment management fees
+●
+Payment gateway fees
+Now we can quantify out of everything what part of those revenue is being
+generated via the mobile app.
+
+
+[Image: page_29_img_1.png]
+**HOW DO BANKS MAKE MONEY?**
+
+- **Give Loans**
+  - Provide Loans to businesses and consumers
+
+- **Charge Fees**
+  - Charge fees for services and some unjustified reasons
+
+- **Investment**
+  - Invest in the stock market and derivatives
+
+- **Locking Facility**
+  - Provide locking facilities for safeguarding precious metals and documents.
+
+- **Trading Forex**
+  - Trade forex in the currency market
+
+---
+
+**Summary:**
+
+Banks generate revenue by providing loans to businesses and consumers, charging fees for various services, investing in the stock market and derivatives, offering secure locking facilities for valuables, and trading in the forex market.
+
+Page 30:
+For example, in India, we use UPI payments and payment merchants like
+paytm/phonepay/gpay for payment at various places like while booking a ticket
+for movies via book my show website, you will be redirected to the payment
+application for final payment.
+Overall revenue increases due to less friction:
+There will be an increase in revenue due to ease of doing online payments and
+applying loans or doing investments.
+Because the process has been made simpler and easier for the users, more
+users who did not use such features will now be a part of the increased revenue.
+●
+For example, making payments via wallet/upi is much easier than internet
+banking, therefore increasing revenue.
+
+
+[Image: page_30_img_1.png]
+**How India pays?**
+
+Average Ticket Size of payment transactions analysed for December 2021
+
+₹4122  
+Credit cards
+
+₹1804  
+Credit cards
+
+₹421  
+Prepaid cards
+
+₹2650  
+UPI P2P
+
+₹786  
+UPI P2M
+
+₹375  
+Mobile Wallets
+
+---
+
+**Value**
+
+PPI M-wallet 18%  
+PPI card 4%  
+Debit card 14%  
+Credit card 8%  
+UPI P2M 56%
+
+**Volume**
+
+PPI M-wallet 7%  
+PPI card 2%  
+Debit card 23%  
+Credit card 28%  
+UPI P2M 41%
+
+---
+
+**Summary:**
+
+In December 2021, the average transaction sizes in India varied across different payment methods. Credit cards had higher average sizes, ₹4122 and ₹1804, compared to ₹2650 for UPI P2P, ₹786 for UPI P2M, and smaller amounts for prepaid cards and mobile wallets. In terms of transaction value, UPI P2M led at 56%, whereas in terms of volume, credit cards dominated at 28%, followed by UPI P2M at 41%.
+
+Page 31:
+Increase in revenue from the mobile application itself:
+For calculating the exact impact of the mobile application, we need to separate
+the existing revenue from the services and the revenue from the services from
+the mobile application. (We need to keep in mind that some of it may be
+cannibalized from other methods)
+●
+We can target metrics like transactions per day, transactions per customer
+and total transaction value.
+●
+We can also measure types of transactions, merchants, and purpose of
+the transactions to further understand and correctly take in account the
+type that we need for the calculation.
+Q. What percentage or ratio of transaction via mobile application would you
+be targeting for a successful mobile application assuming that the bank
+sees a shift in the industry to an online oriented one?
+●
+We could easily target somewhere around 80% of transactions and
+feature access for a successful transition of the bank to a mobile oriented
+goal.
+2. User adoption metrics (Adoption):
+To further understand the usage of the mobile application we need to understand
+the adoption of the mobile app by the users.
+We can segment it into two parts:
+1. Users who have ported to using mobile application.
+2. New users that are joining via the mobile application.
+●
+This will also help in future understanding the revenue that is being
+generated via the mobile application.
+●
+We can measure the total mo. of accounts and the no. of accounts that
+are now opened via the application.
+●
+This will enable us to understand how feasible it is and if the users are
+actually comfortable using the mobile application for such tasks.
+
+
+Page 32:
+●
+The ratio of this is what we should be looking to improve the adoption of
+the application for account opening and similar tasks like fixed deposits or
+investments, based on the services that the bank already provides.
+3. User Feedback and application records (Adoption) :
+●
+You need to have basic user feedback and metrics like Net Promoter
+Score (NPS).
+○
+Analyzing an organization's NPS is one of the best ways to
+understand the long-term growth of an organization.
+●
+Doing sentiment analysis on user feedback would also be a great step in
+understanding the problems and users’ perspective about the app.
+●
+Metrics like Abandon Rate are also really important. It is the percentage of
+users who started a given process within the app but did not complete it.
+○
+This metric helps measure how many users drop off during
+checkout and why they abandon their process.
+●
+Task Completion Rate: This indicator helps to measure the user
+experience of a banking application.
+○
+It helps organizations gauge the rate at which the application solves
+the needs of its users.
+○
+Are users achieving their intended tasks? At what rate is that
+happening? Using this we can understand if the features of the
+application are failing.
+
+
+[Image: page_32_img_1.png]
+**Successful Completion Rate**
+
+- Percentage of Users Who Successfully Completed Each Task
+
+| Task given to the users | Percentage |
+|-------------------------|------------|
+| Task 1                  | 38%        |
+| Task 2                  | 27%        |
+| Task 3                  | 59%        |
+| Task 4                  | 68%        |
+| Task 5                  | 44%        |
+
+**Summary:**
+
+The chart shows the successful completion rates for different tasks given to users. Task 4 had the highest completion rate at 68%, followed by Task 3 at 59%. Task 5 was completed by 44% of users, Task 1 by 38%, and Task 2 had the lowest completion rate at 27%.
+
+Page 33:
+______________________________________________________________________________
