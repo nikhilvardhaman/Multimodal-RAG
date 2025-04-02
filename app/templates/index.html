@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multimodal RAG Project</title>
+    <script>
+        function uploadFile() {
+            let formData = new FormData();
+            let fileInput = document.getElementById("pdfFile");
+            formData.append("file", fileInput.files[0]);
+
+            fetch("/upload", {
+                method: "POST",
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("uploadStatus").innerText = data.message || data.error;
+                if (data.filename) {
+                    document.getElementById("filename").value = data.filename;
+                }
+            })
+            .catch(error => console.error("Error:", error));
+        }
+
+        function sendQuery() {
+            let filename = document.getElementById("filename").value;
+            let query = document.getElementById("queryInput").value;
+
+            fetch("/query", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ filename: filename, query: query })
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("queryResponse").innerText = data.answer || data.error;
+            })
+            .catch(error => console.error("Error:", error));
+        }
+    </script>
+</head>
+<body>
+    <h1>Upload PDF and Ask a Query</h1>
+
+    <input type="file" id="pdfFile" accept="application/pdf">
+    <button onclick="uploadFile()">Upload</button>
+    <p id="uploadStatus"></p>
+
+    <input type="hidden" id="filename">
+    <input type="text" id="queryInput" placeholder="Enter your query">
+    <button onclick="sendQuery()">Ask</button>
+    <p id="queryResponse"></p>
+</body>
+</html>
