@@ -1,0 +1,262 @@
+
+
+Page 1:
+
+
+Page 2:
+
+
+[Image: page_2_img_1.jpeg]
+**PRODUCT METRICS**
+
+Summary: The image contains the text "PRODUCT METRICS" presented in capital letters against a light blue background.
+
+[Image: page_2_img_2.jpeg]
+I'm unable to view or extract text from the uploaded image. Please try uploading the image again or describe its contents.
+
+[Image: page_2_img_3.jpeg]
+The image contains only graphical elements and no text. There are circular designs with a bar graph icon and a meter/gauge icon, as well as some additional abstract design elements.
+
+Summary:
+The image is an abstract design featuring circular graphics with icons indicative of data and progress, such as a bar graph and a gauge, on a light blue background.
+
+[Image: page_2_img_4.jpeg]
+The image seems to be an abstract design with gears and circular patterns. There is no text present in this image.
+
+Summary: There is no text to summarize as the image is an abstract design.
+
+[Image: page_2_img_5.jpeg]
+The image does not contain any text. It appears to be a graphic with a blue background and circular designs.
+
+Page 3:
+
+
+Page 4:
+
+
+[Image: page_4_img_1.jpeg]
+**Text from Image:**
+
+01
+
+The most important metric -
+the North Star. You look at it 
+when you need guidance.
+
+---
+
+**Summary:**
+
+The text describes the North Star as the most important metric, suggesting it serves as a guiding reference when needed.
+
+[Image: page_4_img_2.jpeg]
+**Text from the image:**
+
+02
+
+2-3 less important metrics linked to actions that impact your North Star.
+
+**Summary:**
+
+The image highlights a section labeled "02" which mentions having 2-3 less important metrics that are connected to actions influencing your primary objective, referred to as the "North Star."
+
+[Image: page_4_img_3.jpeg]
+03
+
+Granular metrics 
+that measure your 
+current actions.
+
+**Productivity**
+
+**Summarised**:
+The image focuses on "Granular metrics," emphasizing their role in assessing "current actions" with a label about "Productivity."
+
+Page 5:
+
+
+[Image: page_5_img_1.jpeg]
+**Text Extraction:**
+
+---
+
+𝒓𝒆𝒅_𝒍𝒆𝒎𝒐𝒏
+
+What is something small someone can do to make your day better?
+
+November 14 
+
+cupofy
+
+When someone appreciates the little things you do or acknowledges your efforts.
+
+sodium.sheets_911
+
+smile to me and not think i'm weird because i can't smile back for some reason lol
+
+
+---
+
+**Summary:**
+
+The post by "𝒓𝒆𝒅_𝒍𝒆𝒎𝒐𝒏" asks about small actions that can improve someone's day. "cupofy" suggests that appreciation and acknowledgment of efforts can make a day better, while "sodium.sheets_911" mentions a smile from others, even if they can't smile back.
+
+[Image: page_5_img_2.jpeg]
+I'm sorry, but the image is too small for me to read. Could you provide a clearer image or more details?
+
+[Image: page_5_img_3.jpeg]
+**Daily Active Users**
+
+**Summary:**
+The image shows a logo consisting of four intertwined lines resembling a hashtag alongside the text "Daily Active Users" in bold font. It suggests a focus on tracking or reporting the number of users actively engaging with a platform or service on a daily basis.
+
+[Image: page_5_img_4.jpeg]
+**Daily Active Users**
+
+Summary:
+The image contains the text "Daily Active Users" alongside a multicolored logo.
+
+[Image: page_5_img_5.jpeg]
+I'm sorry, I can't extract text from this image. It appears to be cropped, and the text is not fully visible. Please provide a more complete image or additional context.
+
+[Image: page_5_img_6.jpeg]
+Quora Questions Answered
+
+**Summary:**
+
+The text "Quora Questions Answered" likely refers to a section or feature where questions from the platform Quora are addressed or responded to.
+
+[Image: page_5_img_7.jpeg]
+I'm unable to extract text from the image since it appears blank or cropped. Could you please provide a clearer image or more details?
+
+[Image: page_5_img_8.jpeg]
+**Text from Image:**
+
+Daily Active Users
+
+---
+
+**Summary:**
+
+The image text refers to "Daily Active Users."
+
+[Image: page_5_img_9.jpeg]
+**Text Extraction:**
+
++ Instrument
+  Instrument sounds use a 3 dinnings, then a For loop to play the song
+
++ Spotify Python
+
+Google
+access, play
+
++ Visualisation - Descriptive statistics and EDA
+
+Understanding the dataset involved, check for NULL values, correlation with 
+heatmap visualisation, creating new fields and discoveries
+EDA's: Textual, Pyplot, Heatmap
+words scraped from Lyrics via dataframes and beautifulsoup
+
++ WhatsApp
+
+Understanding your chat's sentiment
+access, visual
+
++ Shopping list
+
+Takes a picture as input and finds the pricing from the shopping site
+append into a list
+output with items and prices in excel sheet
+
+**Summary:**
+
+The text outlines various tools and methods used in data analysis and automation. There is a segment on "Instrument" sounds involving a loop to play a song. "Spotify Python" focuses on accessing and playing music through Google. In "Visualisation," the text emphasizes descriptive statistics and exploratory data analysis, including handling NULL values, correlations with heatmap visualizations, and scraping words from lyrics using dataframes and BeautifulSoup. "WhatsApp" involves sentiment analysis of chat conversations. Lastly, "Shopping list" discusses a method to take a picture of items, find their prices online, and compile the data into an Excel sheet.
+
+[Image: page_5_img_10.jpeg]
+**Text from the image:**
+
+Monthly Active Users
+
+---
+
+**Summary:**
+
+The image displays a heading labeled "Monthly Active Users," likely related to Instagram.
+
+[Image: page_5_img_11.jpeg]
+**Extracted Text**
+
+Instagram
+
+All IG content, profile photos will sync here to help you repost easily
+
+Connected
+
+Reels & Posts, Stories, Mentions & Tags, Comments
+
+When content is created, it will show up here automatically through your connected accounts.
+
+Facebook
+
+Profile photos will sync here to help you repost easily
+
+Connected
+
+Mentions & Tags, Comments
+
+When content is created, it will show up here automatically through your connected accounts.
+
+**Summary**
+
+The image details how Instagram and Facebook accounts sync with a platform or tool for reposting content. It highlights that all Instagram and Facebook content, including profile photos, reels, posts, stories, mentions, tags, and comments, will automatically appear through connected accounts to facilitate easy reposting.
+
+[Image: page_5_img_12.jpeg]
+**Time Spent Listening**
+
+Summary: The image contains the text "Time Spent Listening" alongside the Spotify logo.
+
+[Image: page_5_img_13.jpeg]
+I'm sorry, I can't extract text or summarize content from the image you provided. Could you describe the image or provide text in another format?
+
+[Image: page_5_img_14.jpeg]
+**Booked Nights**
+
+1. Select Dates
+2. Confirm Availability
+3. Enter Payment Info
+4. Confirm & Book
+
+To modify or cancel a booking, go to "Your Trips" in the menu.
+
+---
+
+**Summary:** 
+
+The image provides a step-by-step process for booking nights on a platform. It involves selecting dates, confirming availability, entering payment information, and confirming the booking. If modifications or cancellations are needed, users can go to "Your Trips" in the menu.
+
+[Image: page_5_img_15.jpeg]
+**Text Extracted:**
+
+Booked Nights
+
+---
+
+**Summary:**
+
+The image shows the text "Booked Nights" along with an icon that appears to be associated with a company.
+
+[Image: page_5_img_16.jpeg]
+I'm sorry, I can't view the image you're referring to. Could you upload the image again or describe it?
+
+[Image: page_5_img_17.jpeg]
+**Text Extracted:**
+
+lyft  
+Rides per week
+
+**Summary:**
+
+The image contains the Lyft logo and the text "Rides per week," likely indicating a metric or category related to the frequency of Lyft rides on a weekly basis.
+
+Page 6:

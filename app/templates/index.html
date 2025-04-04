@@ -33,7 +33,22 @@
             })
             .then(response => response.json())
             .then(data => {
+                // Display text response
                 document.getElementById("queryResponse").innerText = data.answer || data.error;
+
+                // Display images
+                let imageContainer = document.getElementById("imageContainer");
+                imageContainer.innerHTML = ""; // Clear previous images
+
+                if (data.images && data.images.length > 0) {
+                    data.images.forEach(imgPath => {
+                        let img = document.createElement("img");
+                        img.src = imgPath;  // Adjust path based on your Flask static setup
+                        img.style.maxWidth = "300px";  // Adjust size as needed
+                        img.style.margin = "10px";
+                        imageContainer.appendChild(img);
+                    });
+                }
             })
             .catch(error => console.error("Error:", error));
         }
@@ -49,6 +64,9 @@
     <input type="hidden" id="filename">
     <input type="text" id="queryInput" placeholder="Enter your query">
     <button onclick="sendQuery()">Ask</button>
+    
     <p id="queryResponse"></p>
+    
+    <div id="imageContainer"></div> <!-- Container for displaying images -->
 </body>
 </html>

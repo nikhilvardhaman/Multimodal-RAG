@@ -27,27 +27,30 @@ def describe_image(base64_image):
     """
     Uses OpenAI's GPT-4o model to generate a description of the image.
     """
-    response = client.chat.completions.create(
-      model="gpt-4o",
-      messages=[
-        { "role": "system", "content": "Your job is to extract all the information from the images, includng the text. Extract all the text from the image without changing the order or structure of the information. recheck if all the text has been extracted correctly and return in the same presentation and structure as present in the original image. "},
-         { "role": "user",
-          "content": [
-            {"type": "text", "text": "extract ALL the text from the image in the same structure as present in the image. and then after it summarise everything in brief, do not miss anything "},
-            {
-              "type": "image_url",
-              "image_url": {
-                "url": f"data:image/png;base64,{base64_image}",
-              },
-            },
+    try:
+        response = client.chat.completions.create(
+          model="gpt-4o",
+          messages=[
+            { "role": "system", "content": "Your job is to extract all the information from the images, includng the text. Extract all the text from the image without changing the order or structure of the information. recheck if all the text has been extracted correctly and return in the same presentation and structure as present in the original image. "},
+            { "role": "user",
+              "content": [
+                {"type": "text", "text": "extract ALL the text from the image in the same structure as present in the image. and then after it summarise everything in brief, do not miss anything "},
+                {
+                  "type": "image_url",
+                  "image_url": {
+                    "url": f"data:image/png;base64,{base64_image}",
+                  },
+                },
+              ],
+            }
           ],
-        }
-      ],
-      max_tokens=300,
-    )
-    #print("Chat GPT:")
-    #print(response.choices[0].message.content)
-    return response.choices[0].message.content
+          max_tokens=300,
+        )
+        #print("Chat GPT:")
+        #print(response.choices[0].message.content)
+        return response.choices[0].message.content
+    except Exception as e:
+        return f"Error in image description: {str(e)}"
 
 
 def extract_images_and_text_from_pdf(pdf_path, output_folder="static/extracted_images"):
@@ -95,59 +98,59 @@ def extract_images_and_text_from_pdf(pdf_path, output_folder="static/extracted_i
             combined_text += f"\n\n[Image: {image_filename}]\n{image_description}"
 
             print(f"Processed {image_filename} on page {page_number + 1}")
+    return combined_text
 
 # Function to extract image references from the text
 def extract_image_references(text):
     pattern = r"\[Image:\s*(.*?)\]"
     image_references = re.findall(pattern, text)
-    return image_references
+    return [f"/static/extracted_images/{img}" for img in image_references]
+
 
 def answer_query(query):
-
-    text_path = os.path.join(app.config['OUTPUT_TEXT'], "combined_text.txt")    
-    loaders = TextLoader(text_path)
-
+    text_path = os.path.join(app.config['OUTPUT_TEXT'], "combined_text.txt")
+    
+    # Ensure UTF-8 encoding to avoid UnicodeDecodeError
+    with open(text_path, "r", encoding="utf-8") as f:
+        text = f.read()
+    
     text_splitter = RecursiveCharacterTextSplitter(
-    chunk_size = 500,
-    chunk_overlap = 60,
-    separators=["\n\n","\n"]
+        chunk_size=500,
+        chunk_overlap=60,
+        separators=["\n\n", "\n"]
     )
-
-    splits = text_splitter.split_documents(loaders.load())
-
+    
+    splits = text_splitter.split_text(text)  # Use split_text instead of loaders.load()
+    
     embedding = OpenAIEmbeddings(api_key=os.getenv("OPENAI_API_KEY"))
-
-    db = FAISS.from_documents(splits, embedding)
+    db = FAISS.from_texts(splits, embedding)  # Use from_texts instead of from_documents
     
     llm = ChatOpenAI(api_key=os.getenv("OPENAI_API_KEY"), model_name='gpt-4o-mini', temperature=0)
 
-    # Build prompt
-    template = """Use the following pieces of context to answer the question at the end. If you don't know the answer and dont find it in the given context, just say that you don't know , don't try to make up an answer.
+    template = """Use the following pieces of context to answer the question at the end. 
+    If you don't know the answer and don't find it in the given context, just say that you don't know, 
+    don't try to make up an answer.
     {context}
     Question: {question}
     Helpful Answer:"""
+    
     QA_CHAIN_PROMPT = PromptTemplate.from_template(template)
-
-
-    # Run chain
+    
     qa_chain = RetrievalQA.from_chain_type(
         llm,
         retriever=db.as_retriever(),
         return_source_documents=True,
         chain_type_kwargs={"prompt": QA_CHAIN_PROMPT}
     )
-
+    
     result = qa_chain({"query": query})
-
+    
     answer_text = result["result"]  # Extract answer
-
-    ret_text = ""
-    for doc in result["source_documents"]:
-        ret_text=ret_text+doc.page_content
-
+    
+    ret_text = "".join([doc.page_content for doc in result["source_documents"]])
     image_references = extract_image_references(ret_text)
     image_references_list = list(set(image_references))  # Remove duplicates
-
+    
     return {
         "answer": answer_text,
         "images": image_references_list
