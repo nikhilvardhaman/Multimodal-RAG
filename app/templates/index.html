@@ -2,10 +2,18 @@
 <html>
 <head>
     <title>Multimodal RAG Project</title>
+    <style>
+        .img-preview {
+            max-width: 300px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            padding: 5px;
+        }
+    </style>
     <script>
         function uploadFile() {
-            let formData = new FormData();
-            let fileInput = document.getElementById("pdfFile");
+            const fileInput = document.getElementById("pdfFile");
+            const formData = new FormData();
             formData.append("file", fileInput.files[0]);
 
             fetch("/upload", {
@@ -19,12 +27,15 @@
                     document.getElementById("filename").value = data.filename;
                 }
             })
-            .catch(error => console.error("Error:", error));
+            .catch(error => {
+                console.error("Upload Error:", error);
+                document.getElementById("uploadStatus").innerText = "File upload failed.";
+            });
         }
 
         function sendQuery() {
-            let filename = document.getElementById("filename").value;
-            let query = document.getElementById("queryInput").value;
+            const filename = document.getElementById("filename").value;
+            const query = document.getElementById("queryInput").value;
 
             fetch("/query", {
                 method: "POST",
@@ -33,40 +44,49 @@
             })
             .then(response => response.json())
             .then(data => {
-                // Display text response
                 document.getElementById("queryResponse").innerText = data.answer || data.error;
 
-                // Display images
-                let imageContainer = document.getElementById("imageContainer");
-                imageContainer.innerHTML = ""; // Clear previous images
+                const imageContainer = document.getElementById("imageContainer");
+                imageContainer.innerHTML = ""; // Clear previous
 
                 if (data.images && data.images.length > 0) {
+                    let imgHTML = "";
                     data.images.forEach(imgPath => {
-                        let img = document.createElement("img");
-                        img.src = imgPath;  // Adjust path based on your Flask static setup
-                        img.style.maxWidth = "300px";  // Adjust size as needed
-                        img.style.margin = "10px";
-                        imageContainer.appendChild(img);
+                        imgHTML += `<img src="${imgPath}" class="img-preview" alt="Result Image" onerror="this.style.display='none'; this.insertAdjacentHTML('afterend', '<p style=&quot;color:red;&quot;>Image not found: ${imgPath}</p>');">`;
                     });
+                    imageContainer.innerHTML = imgHTML;
                 }
             })
-            .catch(error => console.error("Error:", error));
+            .catch(error => {
+                console.error("Query Error:", error);
+                document.getElementById("queryResponse").innerText = "Query failed.";
+            });
         }
     </script>
 </head>
 <body>
-    <h1>Upload PDF and Ask a Query</h1>
+    <h1>Multimodal RAG Project</h1>
 
-    <input type="file" id="pdfFile" accept="application/pdf">
-    <button onclick="uploadFile()">Upload</button>
-    <p id="uploadStatus"></p>
+    <div>
+        <input type="file" id="pdfFile" accept="application/pdf">
+        <button onclick="uploadFile()">Upload</button>
+        <p id="uploadStatus"></p>
+    </div>
 
-    <input type="hidden" id="filename">
-    <input type="text" id="queryInput" placeholder="Enter your query">
-    <button onclick="sendQuery()">Ask</button>
-    
-    <p id="queryResponse"></p>
-    
-    <div id="imageContainer"></div> <!-- Container for displaying images -->
+    <div>
+        <input type="hidden" id="filename">
+        <input type="text" id="queryInput" placeholder="Enter your query" style="width: 300px;">
+        <button onclick="sendQuery()">Ask</button>
+    </div>
+
+    <div>
+        <h3>Answer:</h3>
+        <p id="queryResponse"></p>
+    </div>
+
+    <div>
+        <h3>Extracted Images:</h3>
+        <div id="imageContainer"></div>
+    </div>
 </body>
 </html>

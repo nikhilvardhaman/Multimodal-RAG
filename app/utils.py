@@ -29,7 +29,7 @@ def describe_image(base64_image):
     """
     try:
         response = client.chat.completions.create(
-          model="gpt-4o",
+          model="gpt-4o-mini",
           messages=[
             { "role": "system", "content": "Your job is to extract all the information from the images, includng the text. Extract all the text from the image without changing the order or structure of the information. recheck if all the text has been extracted correctly and return in the same presentation and structure as present in the original image. "},
             { "role": "user",
@@ -53,9 +53,12 @@ def describe_image(base64_image):
         return f"Error in image description: {str(e)}"
 
 
-def extract_images_and_text_from_pdf(pdf_path, output_folder="static/extracted_images"):
+def extract_images_and_text_from_pdf(pdf_path, output_folder=None):
     # Open the PDF file
     pdf_document = fitz.open(pdf_path)
+
+    if output_folder is None:
+        output_folder = os.path.join(app.static_folder, 'extracted_images')
 
     # Create the output folder if it doesn't exist
     if not os.path.exists(output_folder):

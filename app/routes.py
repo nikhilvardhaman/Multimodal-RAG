@@ -1,5 +1,6 @@
 import os
 from flask import request, jsonify, render_template, send_from_directory
+from werkzeug.utils import secure_filename
 from app import app
 from app.utils import encode_image,describe_image,extract_images_and_text_from_pdf,answer_query
 
@@ -23,7 +24,7 @@ def upload_file():
         return jsonify({'error': 'No selected file'}), 400
 
     if file and allowed_file(file.filename):
-        filename = file.filename
+        filename = secure_filename(file.filename)
         file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
         file.save(file_path)
         return jsonify({'message': 'File uploaded successfully', 'filename': filename}), 200
@@ -59,7 +60,7 @@ def query_pdf():
     response = answer_query(query)
 
     # Modify image paths to be accessible via Flask
-    image_urls = [img if img.startswith("/static/") else f"/static/extracted_images/{img}" for img in response["images"]]
+    image_urls = response["images"]
 
     print(f"Answer: {response['answer']}")
     print(f"Image URLs: {image_urls}")
@@ -69,9 +70,9 @@ def query_pdf():
         "images": image_urls
     })
 
-@app.route('/static/extracted_images/<filename>')
-def serve_extracted_images(filename):
-    return send_from_directory("static/extracted_images", filename)
+# @app.route('/static/extracted_images/<filename>')
+# def serve_extracted_images(filename):
+#     return send_from_directory("static/extracted_images", filename)
 
 if __name__ == "__main__":
     app.run(debug=True)
